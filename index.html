@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+  Name: YooJoon Chang
+  Date: May 17, 2019
+  Section: CSE 154 AR
+  This is the index.html page for cp4. It enables a user
+  to search for recipes based on the ingredients they have.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>What Can I cook?</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>What Can I Cook With My Current Ingredients</h1>
+    <h2>Take control of your ingredients!</h2>
+    <section id="front-page">
+      <p>
+        Capitalize the resources you have in your fridge! Stop
+        wasting food and ingredients, and make something delicious
+        with what you have in your house right now! This site only has
+        3 different recipes for now, but I will expand the number of recipes
+        users can query later.
+      </p>
+    </section>
+    <hr>
+    <div id="food-demo">
+      <img src="img/pasta-demo.png" alt="pasta demo" />
+      <img src="img/pizza-slice.png" alt="pizza demo" />
+      <img src="img/burrito-demo.png" alt="burrito demo" />
+    </div>
+    <hr>
+    <section id="ingredients-entry">
+      <P>
+        Enter your ingredients
+      </p>
+      <section id="flex-button">
+        <label>Ingredient 1<input type="text" class="ing" /></label>
+        <label>Ingridient 2<input type="text" class="ing" /></label>
+        <label>Ingridient 3<input type="text" class="ing" /></label>
+        <label>Ingredient 4<input type="text" class="ing" /></label>
+      </section>
+      <button id="btn">Submit</button>
+      <button id="btn-2">Available recipes</button>
+    </section>
+    <section>
+      <button id="no-make">Back</button>
+      <section id="list-recipe" class="extra-temp hidden">
+      </section>
+    </section>
+    <footer>
+      <a href="http://pngimg.com/imgs/food/pasta/" title="Pasta">Pasta</a>
+      <a href="https://www.kisscc0.com/png/sicilian-pizza-fast-food-new-york-style-pizza-pizz-0c33gf/" title="Pizza">Pizza</a>
+      <a href="https://pngriver.com/download-burrito-png-hd-62889/" title="Burrito">Burrito</a>
+    </footer>
+  </body>
+</html>

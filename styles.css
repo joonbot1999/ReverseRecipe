@@ -1,0 +1,105 @@
+/*
+    Name: YooJoon Chang
+    Date: May 17, 2019
+    Section: CSE 154 AR
+    This is the styles.css page for cp4.
+    It is used by all pages in cp4 to give it style for the game.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  background-color: salmon;
+  background-image: linear-gradient(to bottom right, salmon, orange);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Lobster', sans-serif, cursive;
+}
+
+h2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 3em;
+}
+
+img {
+  width: 500px;
+}
+
+hr {
+  border-top: 5px dotted red;
+}
+
+label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-family: 'Poiret One', sans-serif, cursive;
+}
+
+#front-page p {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Cinzel', sans-serif;
+  background-color: pink;
+  border: 15px solid white;
+  border-radius: 4px;
+}
+
+#food-demo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #FFEB99;
+  border-radius: 5px;
+}
+
+#ingredients-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#flex-button {
+  display: flex;
+  flex-direction: column;
+}
+
+#show-recipe {
+  background-color: pink;
+}
+
+#btn, #btn-2 {
+  background: none;
+  border-radius: 5px;
+  background-color: #E30B5D;
+  color: #0099FF;
+  cursor: pointer;
+}
+
+#list-recipe {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.extra-temp {
+  background-color: #CCCCFF;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none !important;
+}
